@@ -18,7 +18,7 @@ This repository contains a collection of carefully crafted solutions to LeetCode
 
 ## Getting Started
 
-1. **Clone the Repository:** `git clone https://github.com/AmanJee-BITS/LeetCode-Solutions.git`
+1. **Clone the Repository:** `git clone https://github.com/AmanJee-BITS/leetcode-gfg-solutions.git`
 2. **Choose a Problem:** Explore the problem sets within the categorized folders.
 3. **Review the Solutions:** Dive into the problem description and associated solution files.
 4. **Contribute:** Share your innovative solutions or improvements by creating a pull request.
