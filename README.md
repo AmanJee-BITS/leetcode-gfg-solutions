@@ -6,14 +6,13 @@ This repository contains a collection of carefully crafted solutions to LeetCode
 
 ## Key Features
 
-- **Diverse Problem Set:** Dive into a wide range of algorithmic problems sourced from LeetCode and GeeksforGeeks to enhance your coding abilities.
+- **Diverse Problem Set:** Dive into various algorithmic problems sourced from LeetCode and GeeksforGeeks to enhance your coding abilities.
 - **Easy-to-Understand Solutions:** Detailed explanations and well-commented code snippets to aid comprehension and learning.
-- **Organized by Topics:** Problems categorized by data structures, algorithms, and specific topics for easier navigation.
-- **Constant Updates:** Regularly updated with new problems and optimized solutions to keep your skills sharp.
+- **Constant Updates:** Regularly updated with new problems and optimized solutions.
 
 ## How to Use
 
-1. **Explore by Topic:** Navigate through folders categorized by data structures or algorithms of interest.
+1. **Explore by Questions:** Navigate through folders categorized by questions of interest.
 2. **Review Solutions:** Access detailed explanations and optimized code snippets for each problem.
 3. **Contribute:** Share your solutions, improvements, or additional problem solutions via pull requests.
 
@@ -26,7 +25,7 @@ This repository contains a collection of carefully crafted solutions to LeetCode
 
 ## Contribution Guidelines
 
-Contributions to this repository are highly encouraged! If you have a more efficient solution, discovered a bug, or want to add new problems, feel free to contribute.
+Contributions to this repository are highly encouraged! Feel free to contribute if you have a more efficient solution, discover a bug, or want to add new problems.
 
 Please follow these guidelines:
 - Create a separate branch for your changes.
