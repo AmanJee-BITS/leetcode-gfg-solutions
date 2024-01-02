@@ -2,15 +2,11 @@ class Solution {
 public:
     vector<vector<int>> findMatrix(vector<int>& nums) {
         map<int, int> mp;
+        int maxCount = 0;
 
         for(auto x:nums){
            mp[x]++;
-        }
-
-        int maxCount = 0;
-
-        for(auto m:mp){
-            maxCount = max(maxCount, m.second);
+           maxCount = max(maxCount, mp[x]);
         }
 
         vector<vector<int>> ans(maxCount);
