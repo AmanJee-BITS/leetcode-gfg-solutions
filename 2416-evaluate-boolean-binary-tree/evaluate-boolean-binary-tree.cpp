@@ -9,14 +9,18 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
 public:
-    bool evaluateTree(TreeNode* root) {
-        if(!root->left && !root->right) return root->val;
-
-        bool left =  evaluateTree(root->left);
-        bool right = evaluateTree(root->right);
-
-        return root->val = root->val == 2 ? (left || right) : (left && right);
+    bool evaluateTree(TreeNode* n) {
+        switch(n->val) {
+            case 0:
+            case 1:
+                return n->val;
+            case 2:
+                return evaluateTree(n->left) || evaluateTree(n->right);
+            default:
+                return evaluateTree(n->left) && evaluateTree(n->right);
+        }
     }
 };
